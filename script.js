@@ -52,7 +52,7 @@ function updateIframe(items, clientName = '', discount = 0) {
             </head>
             <body>
                 <div class="logo">
-                    <img src="img/logo.png" alt="Company Logo">
+                    <img src="logo.png" alt="Company Logo">
                 </div>
                 <h3>Estimate for: ${clientName}</h3>
                 ${itemsTable}
