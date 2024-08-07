@@ -1,0 +1,63 @@
+/* iframe-styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 8.5in; /* Tamaño Carta en ancho */
+    height: 11in; /* Tamaño Carta en altura */
+    margin: auto;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegura que no haya scrollbars en el documento de impresión */
+}
+
+h3 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.total-section {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.total-section p {
+    margin: 5px 0;
+}
+
+.total-section .subtotal,
+.total-section .discount,
+.total-section .total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 150px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
